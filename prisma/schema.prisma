@@ -1,0 +1,26 @@
+model JobOffer {
+  id          String   @id @default(cuid())
+  externalId  String 
+  title       String
+  company     String
+  location    String
+  description String?
+  salaryMin   Int?
+  salaryMax   Int?
+  currency    String?
+  source      String  
+  postedAt    DateTime
+  createdAt   DateTime @default(now())
+
+  @@unique([externalId, source]) 
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
