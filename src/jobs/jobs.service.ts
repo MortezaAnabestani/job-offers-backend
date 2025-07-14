@@ -33,7 +33,7 @@ export class JobsService {
       });
     } catch (err) {
 this.logger.error(
-      `خطا در ذخیره job ${job.externalId} از ${job.source}: ${err.message}`,
+      `Error in saving job ${job.externalId} from ${job.source}: ${err.message}`,
       err.stack,
     );    }
   }

@@ -12,7 +12,7 @@ export class Provider1Service {
       this.logger.log(
         `Fetched ${response.data.jobs.length} jobs from Provider1`,
       );
-      return response.data.jobs; // فقط آرایه jobs رو برگردون
+      return response.data.jobs; 
     } catch (error) {
       this.logger.error(
         `Failed to fetch data from Provider1: ${error.message}`,

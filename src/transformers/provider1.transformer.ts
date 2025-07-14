@@ -12,7 +12,7 @@ export function transformProvider1(job: any): UnifiedJobOffer {
     title: job.title,
     company: job.company.name,
     location: job.details.location,
-    description: '', // در این API description نیست
+    description: '',
     salaryMin: min,
     salaryMax: max,
     currency: 'USD',

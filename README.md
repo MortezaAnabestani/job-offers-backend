@@ -201,6 +201,8 @@ dist
 
 ## 🙌 Author
 Morteza Anabestani
-Frontend Developer, React & NextJs Specialist
+[Frontend Developer,
+React & NextJs Specialist,
+MERN-stack Developer]
 
 Built with care and attention to detail.
