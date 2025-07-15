@@ -201,8 +201,9 @@ dist
 
 ## 🙌 Author
 Morteza Anabestani
-[Frontend Developer,
-React & NextJs Specialist,
+[Frontend Developer (React & NextJs),
 MERN-stack Developer]
+
+Although I had no prior experience with NestJS or PostgreSQL before this challenge, I took it as an opportunity to learn quickly and deliver a production-ready result.
 
 Built with care and attention to detail.
